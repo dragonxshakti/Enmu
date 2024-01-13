@@ -28,7 +28,7 @@ class Config(object):
     ERROR_LOGS = (
         -1001977783984
     )  # Prints information Error
-    REDIS_URL = "redis://default:cdgiOMJGyZsqx97p5S7S@containers-us-west-27.railway.app:6644"
+    REDIS_URL = "redis-11174.c56.east-us.azure.cloud.redislabs.com:11174"
     MONGO_DB_URI = "mongodb+srv://vinamratiwari579:IuhMTKnYMO1nR8lm@cluster0.oezxipv.mongodb.net/?retryWrites=true&w=majority"
     # RECOMMENDED
     DATABASE_URL = "postgres://hxmvtaed:sargMqcQjvBQFGFmcQ2DTv6c5zpXfV1V@horton.db.elephantsql.com/hxmvtaed"  # needed for any database modules
