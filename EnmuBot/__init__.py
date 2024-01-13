@@ -68,7 +68,7 @@ except ValueError:
         raise Exception("Your OWNER_ID variable is not a valid integer.")
 
 JOIN_LOGGER = ( )
-OWNER_USERNAME = papa_of_telegram
+OWNER_USERNAME = "papa_of_telegram"
 try:
         DRAGONS = [6890857225]
         DEV_USERS = [6890857225]
