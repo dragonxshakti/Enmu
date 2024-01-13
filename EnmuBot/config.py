@@ -10,26 +10,26 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
     TEMP_DOWNLOAD_DIRECTORY = "/tmp"
-    API_ID = 17807190  
-    API_HASH = "87d7db377d986df687a32d8230314e7f"
+    API_ID = 20457610 
+    API_HASH = "b7de0dfecd19375d3f84dbedaeb92537"
     ARQ_API = "RVLOWH-KMDHXW-QQCPAC-EFICND-ARQ"
-    TOKEN = "5107955346:AAHR9He_np6W8XdcNMgOjfkCXEJJ8_XqxZg"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    BOT_ID = 5222559003
-    OWNER_ID = 2005266280  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Lost_Emotion"
+    TOKEN = "6818727286:AAFriRWq7EkzCiSmgWuE8oS-9-sV8VLOz4g"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    BOT_ID = 6818727286
+    OWNER_ID = 6890857225  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "papa_of_telegram"
     SUPPORT_CHAT = "Enmu_chat_Support"  # Your own group for support, do not add the @
     BOT_USERNAME = "Enmu_KIZUKI_BOT"
     JOIN_LOGGER = (
-        -1001774850421
+        -1001977783984
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001774850421
+        -1001977783984
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     ERROR_LOGS = (
-        -1001711427851
+        -1001977783984
     )  # Prints information Error
     REDIS_URL = "redis://default:cdgiOMJGyZsqx97p5S7S@containers-us-west-27.railway.app:6644"
-    MONGO_DB_URI = "mongodb+srv://enmu:enmu123@enmu.2cuev.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    MONGO_DB_URI = "mongodb+srv://vinamratiwari579:IuhMTKnYMO1nR8lm@cluster0.oezxipv.mongodb.net/?retryWrites=true&w=majority"
     # RECOMMENDED
     DATABASE_URL = "postgres://hxmvtaed:sargMqcQjvBQFGFmcQ2DTv6c5zpXfV1V@horton.db.elephantsql.com/hxmvtaed"  # needed for any database modules
     LOAD = []
