@@ -63,49 +63,49 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 9:
 TOKEN = ""
 
 try:
-        OWNER_ID = 
+        OWNER_ID = 6890857225
 except ValueError:
         raise Exception("Your OWNER_ID variable is not a valid integer.")
 
 JOIN_LOGGER = ( )
-OWNER_USERNAME = 
+OWNER_USERNAME = papa_of_telegram
 try:
-        DRAGONS = []
-        DEV_USERS = []
+        DRAGONS = [6890857225]
+        DEV_USERS = [6890857225]
 except ValueError:
         raise Exception("Your sudo or dev users list does not contain valid integers.")
 
 try:
-        DEMONS = []
+        DEMONS = [6890857225]
 except ValueError:
         raise Exception("Your support users list does not contain valid integers.")
 
 try:
-        WOLVES = []
+        WOLVES = [6890857225]
 except ValueError:
         raise Exception("Your whitelisted users list does not contain valid integers.")
 
 try:
-        TIGERS = []
+        TIGERS = [6890857225]
 except ValueError:
         raise Exception("Your tiger users list does not contain valid integers.")
 
-EVENT_LOGS = ( )
+EVENT_LOGS = (-1001977783984)
 WEBHOOK = False
 URL = None
 PORT = 5000
 CERT_PATH = None
 REDIS_URL = ""
-API_ID = 
-API_HASH = ""
-ERROR_LOGS = ( )
-MONGO_DB_URI = ""
+API_ID = 20457610
+API_HASH = "b7de0dfecd19375d3f84dbedaeb92537"
+ERROR_LOGS = (-1001977783984)
+MONGO_DB_URI = "mongodb+srv://vinamratiwari579:IuhMTKnYMO1nR8lm@cluster0.oezxipv.mongodb.net/?retryWrites=true&w=majority"
 DONATION_LINK = "I'm Free for everyone"
 LOAD = []
 TEMP_DOWNLOAD_DIRECTORY = "/tmp"
 NO_LOAD = []
 DEL_CMDS = True
-ARQ_API_KEY = ""
+ARQ_API_KEY = "RVLOWH-KMDHXW-QQCPAC-EFICND-ARQ"
 ARQ_API_URL = "https://arq.hamker.in"
 STRICT_GBAN = True
 WORKERS = (8)
@@ -113,10 +113,10 @@ REM_BG_API_KEY = ("")
 BAN_STICKER = ""
 ALLOW_EXCL = True
 WALL_API = ("")
-SUPPORT_CHAT = ""
+SUPPORT_CHAT = "Enmu_chat_Support"
 INFOPIC = True
-BOT_USERNAME = ""
-BOT_ID = 
+BOT_USERNAME = "Fubuki_pyro_bot"
+BOT_ID = 6818727286
 OK = []
 
 try:
