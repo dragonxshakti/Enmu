@@ -31,7 +31,7 @@ class Config(object):
     REDIS_URL = "redis://default:cdgiOMJGyZsqx97p5S7S@containers-us-west-27.railway.app:6644"
     MONGO_DB_URI = "mongodb+srv://enmu:enmu123@enmu.2cuev.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     # RECOMMENDED
-    DATABASE_URL = "postgresql://postgres:nR1yc3HQjFJSJcXBy4V3@containers-us-west-33.railway.app:7793/railway"  # needed for any database modules
+    DATABASE_URL = "postgres://hxmvtaed:sargMqcQjvBQFGFmcQ2DTv6c5zpXfV1V@horton.db.elephantsql.com/hxmvtaed"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
